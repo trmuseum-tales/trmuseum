@@ -1,2 +1,2 @@
-# greatsilkroad-trmuseum.github.io
+# trmuseum-tales.github.io
 Several html-pages
