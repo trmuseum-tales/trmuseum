@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Сказы моей души</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: 'Museo Sans', Arial, sans-serif;
+      font-size: 14px;
+      color:white;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      background-image: url(images/back.jpg);
+      background-repeat: repeat;
+    }
+
+    /*.swiper-slide img {
+    	position: absolute;
+    	left: 40%;
+    	top:20px;
+    }*/
+
+    @font-face {
+	font-family: 'Museo Sans';
+	src: url('MuseoSansCyrl-300.eot');
+	src: local('MuseoSansCyrl-300'),
+		url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+		url('MuseoSansCyrl-300.woff') format('woff'),
+		url('MuseoSansCyrl-300.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+h2, h3, p {
+	display: block;
+
+}
+	  
+#attributes {
+	position: absolute;
+	width:90%;
+	height:100%;
+	left:0;
+	font-size:30pt;
+	margin: 5% 0 5% 5%;
+	padding-right: 5%;
+	overflow: scroll;
+}
+
+h3 {
+	margin-bottom:0;
+}
+	  
+h6 {
+	margin-top:0;
+}
+	  
+#text p{
+	text-align: justify;
+}
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+	
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<img src="images/swipe.gif" style="position: absolute; left: 30%; bottom: 7%; z-index: 3">
+	      <div id="image"><img src="images/fairies.png" style="position: absolute;width:100%;top:0;left:0;z-index:2;"></div>
+	      <div id="image"><img src="images/fairies-back.png" style="position: absolute;height:100%;bottom:0;left:0;"></div>
+      </div>
+	    
+	    
+	    
+	                        <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="images/author.png" width="700px"></div>  	
+      		<div id="title"><h2>Галина Михайловна Левшич</h2></div>
+      		<hr>
+      		<div id="info"><p>Родилась 12 июля 1947 г.</p></div>
+		<div id="info"><p>Член Союза художников СССР и России, а также Международной ассоциации изобразительных искусств. С 1970 года живет в городе Троицке Челябинской области. Работала художником в кинотеатре "30 лет ВЛКСМ", затем художником-постановщиком при народном драматическом театре в городском Доме культуры.</p></div>
+		<div id="info"><p>Лауреат всесоюзных и областных смотров народных театров, награждалась дипломами за сценографию к спектаклям "Затюканный апостол", "Трибунал", "Красавец мужчина" (постановщик - Василий Игнатьев).</p></div>
+		<div id="info"><p>Участник международных, всесоюзных, российских, межрегиональных и региональных выставок и фестивалей. В ее творческом багаже множество персональных выставок: 50 городских (Троицк), 8 областных (Челябинск), 5 - в Самаре, 2 - в Центральном доме художника (Москва).</p></div>
+                <div id="info"><p>В 2017 году персональная выставка Галины Левшич "Семейный альбом" состоялась в выставочном зале Союза художников России, где рекордно было выставлено 304 ее картины. Основная тема экспозиции - история города Троицка в лицах.</p></div>
+		<div id="info"><p>Галина Михайловна - участник и соучредитель регионального творческого общественного проекта "Гильдия художников Южного Урала".</p></div>
+	</div>
+      </div>
+	    
+	    
+                    <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/01.JPG" width="300px"></div>  	
+      		<div id="title"><h2>Сказка «Алёнушка и братец Иванушка»</h2></div>
+      		<hr>
+      		<div id="info"><p>2008 | оргалит, масло | 60x70</p></div>
+      		<hr>
+  		<div id="text"><p>Образ девушки у водоема, которая находится в тени она мила и чиста, но грусть и переживание по своему братцу воплощены в затемнении переднего плана, когда как омут освещен лучами солнца, как луч надежды и любви, к спасению Иванушки. Девушка смотрит в даль, она понимает безысходность, но ее взгляд в ожидании спасителя…</p></div>
+      	</div>
+      </div>
+            
+                    <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/02.JPG" width="300px"></div>  	
+      		<div id="title"><h2>Суздаль</h2></div>
+      		<hr>
+      		<div id="info"><p>2006 | картон, масло | 33x50</p></div>
+      		<hr>
+  		<div id="text"><p>Музей деревянного зодчества под открытым небом, охраняется всемирной организацией ЮНЕСКО. Комплекс представляет строения IX-XII веков. Это этюд. Художник находясь на паломничестве по золотому крыльцу, написал серию картин. Одна из них вошла в данную экспозицию.</p></div>
+      	</div>
+      </div>
+
+
+                          <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/03.JPG" width="400px"></div>  	
+      		<div id="title"><h2>Дохристианская Русь</h2></div>
+      		<hr>
+      		<div id="info"><p>2017 | холст, масло | 80x100</p></div>
+      		<hr>
+  		<div id="text"><p>Образ сюжета по заимствован из сказки «Снегурочка» Островского. Сюжет разворачивается с возвращения Князя Мизгиря из дальнего плавания. На берегу его ожидает добрый люд. Красавица Купава в ожидании своего жениха Мизгиря, устремленно смотрит на приближающиеся корабли. На пристани разгружаются корабли и народ с любопытством и восторгом наблюдает за происходящим. Только Снегурочка стоящая рядом с дедом в стороне отрешена. Она не обращает на происходящее ни какого внимания. </p></div>
+      	</div>
+      </div>
+
+
+                          <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/04.JPG" width="300px"></div>  	
+      		<div id="title"><h2>Сенокос</h2></div>
+      		<hr>
+      		<div id="info"><p>2006 | картон, масло | 50x60</p></div>
+      		<hr>
+  		<div id="text"><p>Картина народной тематики, повествует о тяжёлом и одновременно повседневном труде сельчан. Жаркое солнце, пышная зелень, ее ароматы наполняют картину. Хозяин-отец бережно поправляет сбрую у коня, сын гордо осматривает стог сена на телеге. Все наполнено гармонией и умиротворенностью.</p></div>
+      	</div>
+      </div>
+
+
+
+                          <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/05.JPG" width="300px"></div>  	
+      		<div id="title"><h2>Кувшинки на р. Санарка</h2></div>
+      		<hr>
+      		<div id="info"><p>1999 | холст, масло | 40x70</p></div>
+      		<hr>
+  		<div id="text"><p>Как известно только в чистейшей воде обитают кувшинки, из которых цветут лилии в лунную ночь. Недаром лилии используется как символ королевской власти.</p></div>
+      	</div>
+      </div>
+
+
+
+                          <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/06.JPG" width="600px"></div>  	
+      		<div id="title"><h2>Иоланта</h2></div>
+      		<hr>
+      		<div id="info"><p>2011 | холст, масло | 110x100</p></div>
+      		<hr>
+  		<div id="text"><p>Слепая принцесса, дочь короля Прованса, была слепой и ей казалось так и должно быть, повзрослев стала настоящей красавицей. Очень любила цветы ухаживала и поливала их. Хотя она ни чего не видела, без ошибки всегда определяла, какого они цвета. Проезжавший мимо герцог, был ослеплен ее красотой и сразу в нее влюбился. Спустя время и она его полюбила и после этого сразу прозрела.</p></div>
+      	</div>
+      </div>
+
+
+
+                          <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/07.JPG" width="600px"></div>  	
+      		<div id="title"><h2>Сочельник</h2></div>
+      		<hr>
+      		<div id="info"><p>2007 | холст, масло | 110x120</p></div>
+      		<hr>
+  		<div id="text"><p>Образ заимствован из героини  А.С.Пушкина Татьяны Лариной. Перед Новым годом и рождеством на Сочельник все девушки того времени, всегда гадали и хотели узнать свою   судьбу, кто станет их суженым. На картине большое окно. Изморозь. Татьяна Ларина, задумавшись о своей девичьей судьбе, случайно в сковырнула льдинку с окна.</p></div>
+      	</div>
+      </div>
+
+
+
+                          <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/08.JPG" width="300px"></div>  	
+      		<div id="title"><h2>Незабудки</h2></div>
+      		<hr>
+      		<div id="info"><p>2013 | холст, масло | 50x40</p></div>
+      		<hr>
+  		<div id="text"><p>Цветы незабудки очень притягательны своей таинственной красотой, найти в лесу их большая удача.</p></div>
+      	</div>
+      </div>
+
+
+
+
+                          <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/09.JPG" width="300px"></div>  	
+      		<div id="title"><h2>Яблоня цветет</h2></div>
+      		<hr>
+      		<div id="info"><p>2012 | холст, масло | 40x50</p></div>
+      		<hr>
+  		<div id="text"><p>Натюрморт «Яблоня цветет» посвящен молодости. Во многих странах мира молодость ассоциируется с весной и ранним летом. Цветы дополняют ощущение девичьей чистоты.</p></div>
+      	</div>
+      </div>
+
+
+
+
+                          <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/10.JPG" width="500px"></div>  	
+      		<div id="title"><h2>Снегурочка. Зима</h2></div>
+      		<hr>
+      		<div id="info"><p>2007 | холст, масло | 80x90</p></div>
+      		<hr>
+  		<div id="text"><p>Снегурочка пришла в мир людей. Только что выпал первый снег, и Снегурочка любуется им и деревьями. Все серебрится. Ей все нравится как дома.</p></div>
+      	</div>
+      </div>
+
+
+
+
+                          <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/11.JPG" width="600px"></div>  	
+      		<div id="title"><h2>Мастер Данила</h2></div>
+      		<hr>
+      		<div id="info"><p>2019 | холст, масло | 110x120</p></div>
+      		<hr>
+  		<div id="text"><p>На картине Данила Мастер все время находится в забытье, погруженный в творчество. Ему нравиться добывать, обрабатывать цветные каменья. Он стоит спиной к возлюбленной. Она чуть дыша, сливаясь с березами, искоса невзначай посматривает на Данилу. Супруга ревнует его к творчеству, к холодному камню.</p></div>
+      	</div>
+      </div>
+
+
+
+
+                          <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="tales/12.JPG" width="300px"></div>  	
+      		<div id="title"><h2>Народный костюм</h2></div>
+      		<hr>
+      		<div id="info"><p>2011 | холст, масло | 70x50</p></div>
+      		<hr>
+  		<div id="text"><p>Этюд народного костюма, созданный для воссоздания образа Купавы, в Картине Снегурочка и Купава.</p></div>
+      	</div>
+      </div>
+
+
+
+
+       <div class="swiper-slide">
+      	<div id="attributes"><a href="/2nd.html">
+      		<div id="image"><img src="images/arrow.png" width="500px"></div>  	
+      		<div id="title"><h1>Перейти в следующий зал</h1></div></a></div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows 
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+  </div>
+
+		<audio src="images/theme.mp3" type="audio/mpeg" autoplay="autoplay"></audio>
+  <!-- Swiper JS -->
+  <script src="script.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
