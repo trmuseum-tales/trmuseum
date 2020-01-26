@@ -93,7 +93,13 @@ h6 {
 <body>
   <!-- Swiper -->
 	<script>
-		new Audio("images/theme.mp3").play;
+	var loaded = false;
+        var aud = new Audio();
+        aud.addEventListener('loadeddata', function() {
+          aud.muted = true;
+        }, false);
+        aud.src = 'images/theme.mp3';
+	aud.play();
 	</script>
 	
   <div class="swiper-container">
